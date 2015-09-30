@@ -9,7 +9,7 @@ Example message:
 ```
 POST http://host:port/delegate/hl7-bridge
 Content-Type: application/hl7-v2+er7; charset=utf-8
-MSH|^~&|MegaReg|XYZHospC|SuperOE|XYZImgCtr|20060529090131-0500||ADT^A01^ADT_A01|01052901|P|2.5
+MSH|^~\&|||||20150930091151.621+0200||ADT^A01^ADT_A01|501|T|2.5
 ...
 ```
 
