@@ -28,9 +28,8 @@ public void init() throws PortletException {
 		
 	HL7Bridge.subscribe(new HL7MessageListener() {
 		public void receive(Message message) {
+			//This is an HL7 message object
 			String messageName = message.getName();
-			Integer received = messageCounter.get(messageName);
-			messageCounter.put(messageName, received==null ? 1 : ++received);
 		}
 	});
 }
