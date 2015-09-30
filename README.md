@@ -5,7 +5,7 @@ This is an example project about how to implement a mechanism in Liferay to inte
 ![alt tag](https://raw.githubusercontent.com/jpenren/hl7-bridge-liferay/master/doc/images/HL7%20Bridge.png)
 
 #Receiving messages
-Deploying the hl7-bridge-web module on Liferay, a new endpoint will be added, now Liferay can receive HL7 messages on /delegate/hl7-bridge (POST method).
+Deploying the hl7-bridge-web module on Liferay, a new endpoint will be added, now Liferay can receive HL7 messages on `/delegate/hl7-bridge` (POST method).
 
 Example message:
 ```
