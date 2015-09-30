@@ -5,6 +5,14 @@ This is an example project about how to implement a mechanism in Liferay to inte
 #Receiving messages
 Deploying the hl7-bridge-web module on Liferay, a new endpoint will be added, now Liferay can receive HL7 messages on /delegate/hl7-bridge (POST method).
 
+Example message:
+```
+POST http://host:port/delegate/hl7-bridge
+Content-Type: application/hl7-v2+er7; charset=utf-8
+MSH|^~&|MegaReg|XYZHospC|SuperOE|XYZImgCtr|20060529090131-0500||ADT^A01^ADT_A01|01052901|P|2.5
+...
+```
+
 #Subscription to receive messages
 In any portlet that need to receive HL7 messages follow this steps:
 - Add the hl7-bridge-common module as dependency
