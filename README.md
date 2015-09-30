@@ -8,6 +8,13 @@ Deploying the hl7-bridge-web module on Liferay, a new endpoint will be added, no
 #Subscription to receive messages
 In any portlet that need to receive HL7 messages follow this steps:
 - Add the hl7-bridge-common module as dependency
+```xml
+<dependency>
+	<groupId>io.github.hl7bridge</groupId>
+	<artifactId>hl7-bridge-common</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+</dependency>
+```
 - Configure the ContextInitializationListener in web.xml
 ```xml
 <listener>
