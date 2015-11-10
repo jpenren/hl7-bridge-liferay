@@ -35,9 +35,14 @@ public class ADTHL7MessageListener implements MessageListener{
 	
 	@Subscribe({"ADT.*"})
 	public void receiveADT(Message message){
-		//Stores message event
-		DashboardRepository.getInstance().add(message);
+		//Receive ADT messages
+	}
+	
+	@Subscribe({"ADT_A01"})
+	public void receiveADTA01(ADT_A01 message){
+		//Receive ADT_A01 message
 	}
 
 }
+
 ```
