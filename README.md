@@ -5,7 +5,7 @@ This is an example project about how to implement a mechanism in Liferay to inte
 ![alt tag](https://raw.githubusercontent.com/jpenren/hl7-bridge-liferay/master/doc/images/HL7%20Bridge.png)
 
 Architecture
-![alt tag](https://raw.githubusercontent.com/jpenren/hl7-bridge-liferay/master/doc/images/HL7-Bridge-Architecture.png)
+![alt tag](https://raw.githubusercontent.com/jpenren/hl7-bridge-liferay/osgi/doc/images/HL7-Bridge-Architecture.png)
 
 #Receiving messages
 This module requires HAPI Java HL7 API OSGI Bundle
