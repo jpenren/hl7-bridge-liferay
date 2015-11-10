@@ -1,0 +1,6 @@
+-dsannotations: *
+
+Bundle-Version: 1.0.0.${tstamp}
+
+Export-Package: \
+	io.github.hl7.bridge.*

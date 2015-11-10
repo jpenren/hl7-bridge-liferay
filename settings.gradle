@@ -1,0 +1,1 @@
+include 'hl7-bridge-api','hl7-bridge-connector-http','hl7-bridge-service','hl7-bridge-web'

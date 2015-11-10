@@ -1,0 +1,8 @@
+-dsannotations: *
+
+Bundle-Version: 1.0.0.${tstamp}
+
+Private-Package:\
+	io.github.hl7.bridge.impl,\
+	io.github.hl7.bridge.adapter.*,\
+	io.github.hl7.bridge.registry.*
