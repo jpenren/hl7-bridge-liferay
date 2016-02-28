@@ -8,9 +8,8 @@ Architecture
 ![alt tag](https://raw.githubusercontent.com/jpenren/hl7-bridge-liferay/osgi/doc/images/HL7-Bridge-Architecture.png)
 
 #Receiving messages
-1 - This module requires HAPI Java HL7 API OSGI Bundle, download it from (http://mvnrepository.com/artifact/ca.uhn.hapi/hapi-osgi-base/2.2).
-
-2 - Copy the hl7-bridge modules to ${liferay.home}/osgi/modules.
+- This module requires HAPI Java HL7 API OSGI Bundle, available from http://mvnrepository.com/artifact/ca.uhn.hapi/hapi-osgi-base/2.2
+- Copy the hl7-bridge modules to ${liferay.home}/osgi/modules
 
 After that, a new endpoint will be added and Liferay can receive HL7 messages on `/o/hl7-bridge` (POST method).
 
