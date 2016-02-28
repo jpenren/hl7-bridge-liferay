@@ -8,10 +8,11 @@ Architecture
 ![alt tag](https://raw.githubusercontent.com/jpenren/hl7-bridge-liferay/osgi/doc/images/HL7-Bridge-Architecture.png)
 
 #Receiving messages
-This module requires HAPI Java HL7 API OSGI Bundle
-Copy the hl7-bridge modules to ${liferay.home}/osgi/modules
+1 - This module requires HAPI Java HL7 API OSGI Bundle, download it from (http://mvnrepository.com/artifact/ca.uhn.hapi/hapi-osgi-base/2.2).
 
-A new endpoint will be added, now Liferay can receive HL7 messages on `/o/hl7-bridge` (POST method).
+2 - Copy the hl7-bridge modules to ${liferay.home}/osgi/modules.
+
+After that, a new endpoint will be added and Liferay can receive HL7 messages on `/o/hl7-bridge` (POST method).
 
 Example message:
 ```
@@ -22,7 +23,7 @@ MSH|^~\&|||||20150930091151.621+0200||ADT^A01^ADT_A01|501|T|2.5
 ```
 
 #Subscription to receive messages
-In any component that need to receive HL7 messages follow this steps:
+At any component that need to receive HL7 messages do the following steps:
 - Add the hl7-bridge-api module as dependency
 ```xml
 compile  'io.github.hl7-bridge:hl7-bridge-api:1.0.0'
