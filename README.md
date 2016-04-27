@@ -26,7 +26,7 @@ MSH|^~\&|||||20150930091151.621+0200||ADT^A01^ADT_A01|501|T|2.5
 On any component that need to receive HL7 messages do the following steps:
 - Add the hl7-bridge-api module as dependency
 ```xml
-compile  'io.github.hl7-bridge:hl7-bridge-api:1.0.0'
+compile  'io.github.hl7-bridge:hl7-bridge-api:1.0.0-SNAPSHOT'
 ```
 
 - Subscribe to the HL7 bridge to receive messages. In your component:
