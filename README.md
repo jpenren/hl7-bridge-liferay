@@ -11,8 +11,8 @@ Architecture
 - HL7 Bridge requires 'HAPI Java HL7 API OSGI Bundle', available from http://mvnrepository.com/artifact/ca.uhn.hapi/hapi-osgi-base/2.2, download it and copy to [liferay_home]/deploy
 - Copy hl7-bridge modules (at least hl7-bridge-api, hl7-bridge-service and hl7-bridge-connector-http) to [liferay_home]/deploy
 
-#Receiving messages
-With hl7-bridge-connector-http bundle active, a new endpoint will be added and Liferay can receive HL7 messages at `/o/hl7-bridge` (POST method).
+#Sending messages
+With hl7-bridge-connector-http bundle active a new endpoint will be added and Liferay can receive HL7 messages at `/o/hl7-bridge` (POST method).
 
 Example message:
 ```
