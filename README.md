@@ -2,6 +2,7 @@
 
 OSGi way version available here: https://github.com/jpenren/hl7-bridge-liferay/tree/osgi
 
+
 This is an example project about how to implement a mechanism in Liferay to integrate with applications able to talk in HL7. The HL7 Bridge provides a way to centralize the reception of any HL7 message and send it to all portlets subscribed to this type of message.
 
 ![alt tag](https://raw.githubusercontent.com/jpenren/hl7-bridge-liferay/master/doc/images/HL7%20Bridge.png)
