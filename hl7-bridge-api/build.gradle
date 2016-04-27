@@ -1,3 +1,5 @@
+version = '1.0.0-SNAPSHOT'
+
 dependencies {
 	compile 'ca.uhn.hapi:hapi-base:2.2'
 }
