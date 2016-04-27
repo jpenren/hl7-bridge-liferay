@@ -8,7 +8,7 @@ Architecture
 ![alt tag](https://raw.githubusercontent.com/jpenren/hl7-bridge-liferay/master/doc/images/HL7-Bridge-Architecture.png)
 
 #Installation
-- This module requires HAPI Java HL7 API OSGI Bundle, available from http://mvnrepository.com/artifact/ca.uhn.hapi/hapi-osgi-base/2.2, download and copy on [liferay_home]/deploy
+- HL7 Bridge requires 'HAPI Java HL7 API OSGI Bundle', available from http://mvnrepository.com/artifact/ca.uhn.hapi/hapi-osgi-base/2.2, download it and copy to [liferay_home]/deploy
 - Copy hl7-bridge modules (at least hl7-bridge-api, hl7-bridge-service and hl7-bridge-connector-http) to [liferay_home]/deploy
 
 #Receiving messages
